@@ -57,9 +57,9 @@ public class MainActivity extends AppCompatActivity {
         question2_choice1 = (RadioButton) this.findViewById(R.id.question2_choice1);
         is_bending_over = question2_choice1.isChecked();
         if (is_bending_over) {
-            answer1_output = "bending_over";
+            answer2_output = "bending_over";
         } else {
-            answer1_output = "leaning_back";
+            answer2_output = "leaning_back";
         }
         
         //------------------------------------------------------------------------------------------
